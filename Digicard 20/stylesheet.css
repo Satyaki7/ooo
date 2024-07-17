@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: auto;
+    scroll-behavior: smooth;
+    background-image: url(image/vecteezy_muted-colors-an-illustration-of-a-room_30659547.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+    scrollbar-width: 1px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background: rgba(245, 222, 179, 0)
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(194, 241, 108)
+}
+
+section {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.maindiv {
+    background-color: rgba(246, 255, 243, 0.164);
+    backdrop-filter: blur(8px);
+    opacity: 20px;
+    height: 30.90vh;
+    width: 76.046vh;
+    border-radius: 12px;
+    display: flex;
+    border-style: hidden;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.headerdiv {
+    margin-top: 50px;
+    width: 76.046vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 100px;
+}
+
+#hfont {
+    margin: 0px;
+    font-size: 20px;
+    color: #30221F;
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+}
+
+.but {
+    margin: 10px;
+}
+
+.but:hover {
+    background-color: #ffe6a257;
+    border-radius: 16px;
+}
+
+.mainbut {
+    height: 45.308px;
+    width: 64.72vh;
+    background-color: transparent;
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.social {
+    width: 76.046vh;
+    height: 12vh;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#sos {
+    margin-left: 8px;
+    margin-right: 8px;
+    height: 40px;
+    width: 40px;
+    transition: transform 0.3s ease;
+}
+
+#sos:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    color: wheat;
+    font-size: 10px;
+}
+
+footer a {
+    color: wheat;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .mainop {
+        width: 50vh;
+    }
+    .headerdiv {
+        width: auto;
+    }
+    .maindiv {
+        height: 30.90vh;
+        width: auto;
+    }
+    .mainbut {
+        width: 30vh;
+    }
+    .social {
+        width: auto;
+    }
+    .footer {
+        width: auto;
+    }
+}
